@@ -95,7 +95,34 @@ vertical-align: 1rem;
 .msje {
     height: 400px;
 }
+.btn-primary {
+    background-color: rgb(34, 212, 212);
+}
+/*footer*/
+.footer {
+    background-color:rgb(34, 212, 212);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.f-text {
+    font-family: "Montserrat";
+    font-size: medium;
+    font-weight: 300;
+    display: inline;
+    color: white;
+}
+.f-icons {
+    font-size: 1rem;
+    color: white;
+    display: inline;
+    float: right;
 
+}
+.f-btn {
+    color: white;
+}
 
 /*media querys*/
 @media screen and (max-width: 768px) {
