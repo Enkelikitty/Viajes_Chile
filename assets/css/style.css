@@ -78,6 +78,23 @@ vertical-align: 1rem;
 .tarjetas2 .card-text {
     font-size: 0.75rem;
 }
+/*contacto*/
+.form1 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.form-label {
+    color: white;
+    font-family: "Montserrat";
+    font-size: small;
+    font-weight: 300;
+}
+.form-control {
+    font-size: xx-small;
+}
+.msje {
+    height: 400px;
+}
 
 
 /*media querys*/
@@ -87,6 +104,10 @@ vertical-align: 1rem;
     }
     .navbar-nav {
         margin-right: 2rem;
+    }
+    .form1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     
 }
