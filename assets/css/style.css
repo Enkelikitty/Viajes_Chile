@@ -7,10 +7,10 @@ body {
 }
 .navbar-brand {
     font-family: "Bebas Neue";
-    margin-left: 8rem;
+    margin-left: 6rem;
 }
 .navbar-nav {
-    margin-right: 8rem;
+    margin-right: 6rem;
 }
 .BgColour {
     color: rgb(255, 255, 255);
@@ -78,10 +78,13 @@ vertical-align: 1rem;
 .tarjetas2 .card-text {
     font-size: 0.75rem;
 }
+.card-img-top {
+   object-fit: cover;
+}
 /*contacto*/
 .form1 {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 .form-label {
     color: white;
@@ -101,8 +104,8 @@ vertical-align: 1rem;
 /*footer*/
 .footer {
     background-color:rgb(34, 212, 212);
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
    
@@ -115,7 +118,7 @@ vertical-align: 1rem;
     color: white;
 }
 .f-icons {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
     display: inline;
     float: right;
@@ -129,10 +132,10 @@ vertical-align: 1rem;
 /*media querys*/
 @media screen and (max-width: 768px) {
     .navbar-brand {
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     .navbar-nav {
-        margin-right: 2rem;
+        margin-right: 1rem;
     }
     .form1 {
         margin-left: 1rem;
