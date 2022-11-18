@@ -101,10 +101,11 @@ vertical-align: 1rem;
 /*footer*/
 .footer {
     background-color:rgb(34, 212, 212);
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+   
 }
 .f-text {
     font-family: "Montserrat";
@@ -118,6 +119,7 @@ vertical-align: 1rem;
     color: white;
     display: inline;
     float: right;
+
 
 }
 .f-btn {
@@ -135,6 +137,10 @@ vertical-align: 1rem;
     .form1 {
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    .footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     
 }
