@@ -158,7 +158,7 @@ vertical-align: 1rem;
 }
 @media (min-width: 992px) and (max-width: 1024px) {
     .tarjetas2 {
-        width: 12rem;
+        width: 10rem;
     }
 }
 
