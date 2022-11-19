@@ -162,4 +162,10 @@ vertical-align: 1rem;
     }
    
 }
+@media (min-width: 1440px) {
+    .tarjetas2 {
+        width: 18rem;
+    }
+   
+}
 
