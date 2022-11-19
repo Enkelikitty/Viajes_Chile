@@ -158,6 +158,10 @@ vertical-align: 1rem;
     }   
 }
 @media (min-width: 1440px) {
+    .tarjetas-row {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
     .tarjetas2 {
         width: 18rem;
     } 
