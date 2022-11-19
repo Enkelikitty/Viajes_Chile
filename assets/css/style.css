@@ -17,7 +17,6 @@ body {
     transition: all 1s;
     background-color: black;
 }
-
 /*¿quienes somos*/
 .titulos {
     color: white;
@@ -122,13 +121,10 @@ vertical-align: 1rem;
     color: white;
     display: inline;
     float: right;
-
-
 }
 .f-btn {
     color: white;
 }
-
 /*media querys*/
 @media screen and (max-width: 768px) {
     .navbar-brand {
@@ -159,13 +155,13 @@ vertical-align: 1rem;
 @media (min-width: 992px) and (max-width: 1440px) {
     .tarjetas2 {
         width: 14rem;
-    }
-   
+    }   
 }
 @media (min-width: 1440px) {
     .tarjetas2 {
         width: 18rem;
-    }
-   
+    } 
 }
 
+
+    
