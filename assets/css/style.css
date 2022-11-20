@@ -55,16 +55,13 @@ vertical-align: 1rem;
     font-size: 0.75rem;
 }
 /*destacados*/
-.des-row {
-    justify-content: center;
-}
+
 .tarjetas2 {
     background-color:  rgb(34, 212, 212);
-    padding: 0px;
+    margin: 0 auto;
     color: white;
     font-family: "Montserrat";
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+   
     width: 18rem;
     border-radius: 0px;
     border: 0px;
