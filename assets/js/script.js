@@ -15,3 +15,13 @@ var tooltipTriggerList =
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+//
+$(document).ready(function() {
+    $('.form-control').on('input change', function() {
+        if($(this).val() != '') {
+            $('#submit').prop('disabled', false);
+        } else {
+            $('#submit').prop('disabled', true);
+        }
+    });
+});
