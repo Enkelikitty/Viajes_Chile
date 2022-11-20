@@ -1,3 +1,4 @@
+//cambio color navbar
 function scrollValue() {
     var navbar = document.getElementById('navbar');
     var scroll = window.scrollY;
@@ -9,13 +10,21 @@ function scrollValue() {
 }
 
 window.addEventListener('scroll', scrollValue);
-//
+
+//cerrar tarjeta quienes somos
+$(document).ready(function() {
+    $("#QS").click(function(){
+    $(".c-cuerpo").toggle();
+  });
+});  
+
+//Tooltips
 var tooltipTriggerList =
 [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 return new bootstrap.Tooltip(tooltipTriggerEl)
 })
-//
+//deshabilitar boton enviar contacto
 $(document).ready(function() {
     $('.form-control').on('input change', function() {
         if($(this).val() != '') {
